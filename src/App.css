@@ -1,0 +1,12 @@
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  padding: 16px;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}

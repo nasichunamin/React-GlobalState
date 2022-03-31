@@ -1,0 +1,47 @@
+.content{
+    margin-top: 100px;
+  }
+  .header{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, yellow 25%, green 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .border-full {
+    height: 3rem;
+    justify-content: space-between;
+    border-radius: 50px !important;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .border-full input{
+    width: 80%;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 50px;
+  }
+  .border-full input:focus{
+    outline: none;
+  }
+  
+  .btn-submit {
+    height: 3rem;
+    padding-right: 1rem;
+    border: none;
+    background-color: white;
+    border-left: none !important;
+    border-radius: 50px !important;
+  }
+  
+  .delete {
+    padding: 3px 10px !important;
+    color: black !important;
+    border-radius: 20px !important;
+  }
+  
+  .delete:hover {
+    color: white !important;
+  }
+  
